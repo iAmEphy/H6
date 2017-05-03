@@ -19,5 +19,12 @@ public class BinaryTree {
       left = null;
       right = null;
     }
+    
+    Node(String x, Node lefty, Node righty)
+    {
+      value = x;
+      left = lefty;
+      right = righty;
+    }
   }
 }
