@@ -26,5 +26,28 @@ public class BinaryTree {
       left = lefty;
       right = righty;
     }
+    
+    public String getValue()
+    {
+    return value;
+    }
   }
-}
+  
+  Node theTree(String array[], int string, int end)
+  {
+    if(string > end)
+    {
+      return null;
+    }
+    
+    Node currentNode = new Node(array[in++]);
+    
+    if(string == end)
+    {
+      return currentNode;
+    }
+    
+    int indexx = search(array, string, end, currentNode.value);
+    
+  }
+ }
